@@ -1,0 +1,43 @@
+.booking {
+  width: 100%;
+  display: flex;
+}
+.carousel {
+  z-index: 999;
+}
+
+.submit-form {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  background: rgb(31, 150, 219);
+  color: white;
+  padding: 20px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+.text > h3 {
+    font-size: 33px;
+}
+
+.text > p {
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+.amount {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.amount:hover {
+    transform: scale(0.88);
+}

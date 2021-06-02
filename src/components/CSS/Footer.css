@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 80px;
+    background: #000;
+    color: white;
+    width: 100%;
+}
+
+.footer-hader > h3 {
+    color: rgb(31, 150, 219);
+    font-weight: 400;
+}
+
+.footer-hader > span {
+    font-size: 10px;
+    margin-top: 32px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.footer-hader > p {
+    font-size: 12px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: rgb(31, 150, 219) ;
+}
+
+.footer-content {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.footer-content > span {
+    font-family:cursive;
+    letter-spacing: 1px;
+}
